@@ -2,6 +2,7 @@ body {
     color: #222222;
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #c4f5f3;
 }
 
 .content-footer,
@@ -12,15 +13,17 @@ body {
 
 .masthead {
   padding: 6em 0;
-  background-image: url('../img/code.jpg');
+  background-image: url('../img/manage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 90%;
 }
 
 .masthead-intro {
     margin-bottom: 0.1em;
     font-size: 2em;
     color: #ffffff;
+    text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 .masthead-heading {
@@ -30,6 +33,7 @@ body {
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #ffffff;
+    text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 .details {
@@ -37,7 +41,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
-}
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    border: darkblue solid 3px;
+    border-radius: 10px;
+  }
 
 .details > p {
     font-weight: 300;
@@ -47,11 +57,6 @@ body {
 .details > h2 {
     font-size: 1.2em;
     font-weight: bold;
-    margin: 2em 0 1em 0;
-}
-
-section > h1 {
-    margin-top: 2em;
 }
 
 #footer {
@@ -71,7 +76,10 @@ section > h1 {
   margin: 0 5px;
 }
 
-.row{clear:both}
+.row{
+  clear:both;
+  display:inline-flex;
+}
 
 .column{
     width: 50%;
@@ -82,5 +90,13 @@ h1 {
 }
 
 .title {
-  color: red;
+  color: Dark;
+}
+
+h3 {
+  font-style: italic;
+}
+
+.skills {
+  text-decoration: underline;
 }
